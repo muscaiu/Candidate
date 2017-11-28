@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #center {
+            position: absolute;
+            width: 500px;
+
+            background-color: yellow;
+            text-align: center;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        @media(min-width:768px) {
+            .fixIt {
+                position: fixed;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="center">www</div>
+    <img class="fixIt" src="https://www.w3schools.com/css/paris.jpg" alt="">
+</body>
+
+</html>
